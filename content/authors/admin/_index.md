@@ -1,46 +1,44 @@
 ---
 # Display name
-title: Hanlin Sun
+title: Zhuan Li
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: PhD candidate in Applied Mathematics
+role: PhD candidate in Condensed Matter Physics
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Queen Mary University of London
-    url: https://www.qmul.ac.uk
+  - name: University of Pittsburgh, Pittsburgh
+    url: https://www.pitt.edu
 
 # Short bio (displayed in user profile at end of posts)
 
 
 # Interests to show in About widget
 interests:
-  - Percolation theory
-  - Message-passing algorithm
-  - Hypergraphs and simplicial complexes
-  - Epidemic spreading
+  - Topological phase of matter
+  - Tensor network algorithm
+  - Quantum error correction
+  - Quantum information
   - Statistical Physics
-  - Inference and Optimization on networks
-  - Multilayer networks
+  - Josephson parametric amplifier
+  - Random matrix theory
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Applied Mathematics
-      institution: Queen Mary University of London, UK
-      year: 2023
+    - course: PhD in Condensed Matter Physics
+      institution: University of Pittsburgh, Pittsburgh, PA
+      year: 2024
     - course: BSc in Physics
       institution: University of Chinese Academy of Sciences, China
       year: 2019
     - course: Visiting student
-      institution: KTH Royal Institute of Technology, Sweden
+      institution: University of Bristol, UK
       year: 2018
-    - course: Visiting student
-      institution: Aston University, UK
-      year: 2018
+
 
 
 # Social/Academic Networking
@@ -50,25 +48,16 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: mailto:hanlin.sun@qmul.ac.uk
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/sunhanlin151
-  - icon: google-scholar # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: ai
-    link: https://scholar.google.com/citations?user=b3mTmVgAAAAJ&hl=zh-CN
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/hanlinsun97
+    link: mailto:zhl153@pitt.edu
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/in/hanlin-sun-0483aa18b/
+    link: https://www.linkedin.com/in/li-zhuan-02a420239/
   - icon: orcid
     icon_pack: ai
-    link: https://orcid.org/my-orcid?orcid=0000-0003-1606-1257
-  - icon: arxiv
-    icon_pack: ai
-    link: https://arxiv.org/a/sun_h_3.html
+    link: https://orcid.org/my-orcid?orcid=0000-0002-2556-0149
+  #- icon: arxiv
+  #  icon_pack: ai
+  #  link: https://arxiv.org/a/sun_h_3.html
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`,
 # and uncomment the lines below.
@@ -77,13 +66,13 @@ social:
 #   link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: 'hanlin.sun@qmul.ac.uk'
+email: 'zhl153@pitt.edu'
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-Hanlin is a final year Ph.D. student at Queen Mary University of London, working on network theory. His research focuses on several aspects of dynamic processes on networks and other structures with higher-order interactions, such as simplicial complexes and hypergraphs, under the supervision of Prof. Ginestra Bianconi. His current Ph.D. project aims to understand the critical properties of standard and higher-order percolation on networks and hypergraphs respectively, and how network topologies and geometries affect the robustness and other critical behaviors. 
+Zhuan is a fourth-year Ph.D. student at the University of Pittsburgh under the supervision of Prof. Roger Mong. He is broadly interested in condensed matter theory, especially the topological phase of matter and its potential application to quantum computing. His current Ph.D. project aims to understand the critical properties of standard and higher-order percolation on networks and hypergraphs respectively, and how network topologies and geometries affect the robustness and other critical behaviors. 
 
-Before joining Queen Mary, Hanlin studied physics at the University of Chinese Academy of Sciences, China (BSc). During his undergraduate study, he worked on the inference and optimization on multiple interacting spreading processes on networks under the supervisor of Prof. David Saad, Aston University, and low-rank approximation algorithms on tensor networks under the supervisor of Prof. Pan Zhang, Institute of Theoretical Physics, Chinese Academy of Sciences.
+Before joining UPitt, Zhuan studied physics at the University of Chinese Academy of Sciences, China (BSc). During his undergraduate study, he worked on low-rank approximation algorithms based on tensor network under the supervisor of Prof. Pan Zhang, Institute of Theoretical Physics, Chinese Academy of Sciences.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}CV{{< /staticref >}}.
