@@ -22,7 +22,6 @@ interests:
   - Tensor network algorithm
   - Quantum error correction
   - Quantum information
-  - Statistical Physics
   - Josephson parametric amplifier
   - Random matrix theory
 
@@ -55,9 +54,9 @@ social:
   - icon: orcid
     icon_pack: ai
     link: https://orcid.org/my-orcid?orcid=0000-0002-2556-0149
-  #- icon: arxiv
-  #  icon_pack: ai
-  #  link: https://arxiv.org/a/sun_h_3.html
+  - icon: arxiv
+    icon_pack: ai
+    link:  http://arxiv.org/a/li_z_21
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`,
 # and uncomment the lines below.
