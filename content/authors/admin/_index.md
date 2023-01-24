@@ -53,10 +53,10 @@ social:
     link: https://www.linkedin.com/in/li-zhuan-02a420239/
   - icon: orcid
     icon_pack: ai
-    link: https://orcid.org/my-orcid?orcid=0000-0002-2556-0149
+    link:  https://orcid.org/my-orcid?orcid=0000-0002-2556-0149
   - icon: arxiv
     icon_pack: ai
-    link:  http://arxiv.org/a/li_z_21
+    link: http://arxiv.org/a/li_z_21
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`,
 # and uncomment the lines below.
