@@ -22,33 +22,24 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: PhD researcher
-    company: Queen Mary University of London
+  - title: PhD student
+    company: University of Pittsburgh
     company_url: ''
     company_logo: ''
-    location: London, United Kingdom
+    location: Pittsburgh, PA, USA
     date_start: '2019-09-01'
     date_end: ''
     description: |2-
-        PhD in Applied Mathematics. Study percolation on networks and higher-order structures under the supervision of Prof. Ginestra Bianconi.
+        PhD in Physics. Study topological order and tensor network under the supervision of Prof. Roger Mong.
+
 
   - title: Visiting student
-    company: Aston University
+    company: University of Bristol
     company_url: ''
     company_logo: ''
-    location: Birmingham, United Kingdom
-    date_start: '2018-07-01'
-    date_end: '2018-08-28'
-    description: Study the inference and optimization on multiple interacting spreading processes under the supervision of Prof. David Saad.
-
-  - title: Visiting student
-    company: KTH Royal Institute of Technology
-    company_url: ''
-    company_logo: ''
-    location: Stockholm, Sweden
+    location: Bristol, UK
     date_start: '2018-01-10'
     date_end: '2018-06-25'
-    description: Course project on Parallel Computing, Artificial Neural Networks and Deep Learning.
 
   - title: Visiting student
     company: Institute of Theoretical Physics, Chinese Academy of Sciences

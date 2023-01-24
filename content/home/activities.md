@@ -28,7 +28,7 @@ I have been a Teaching Assistant at University of Pittsburgh for the following c
 ***
 I have given contributed talks on the following conferences:
 - 2022 **APS March Meeting (Chicago)**
-  - <font size=3> Contributed talk. *Title:Detecting topological order from modular transformations of ground states on the torus.* </font>
+  - <font size=3> Contributed talk. *Title: Detecting topological order from modular transformations of ground states on the torus.* </font>
 
 
 ## Scholarships and Grants
