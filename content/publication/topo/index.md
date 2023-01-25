@@ -3,7 +3,7 @@ title: "Detecting topological order from modular transformations of ground state
 authors:
 - admin
 - Roger Mong
-date: "2015-09-01T00:00:00Z"
+date: "2022-09-01T00:00:00Z"
 doi: "https://doi.org/10.1103/PhysRevB.106.235115"
 
 # Schedule page publish date (NOT publication's date).
