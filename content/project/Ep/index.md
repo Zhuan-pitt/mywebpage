@@ -1,8 +1,9 @@
 ---
-title: Detecting the topological order on a torus
+title: Estimating the entanglment of purification
 summary: An example of using the in-built project page.
 tags:
-  - Topological order
+  - Quantum information
+  - Random matrix
 date: '2022-04-27T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
