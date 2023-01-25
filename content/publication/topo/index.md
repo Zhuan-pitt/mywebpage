@@ -32,7 +32,6 @@ featured: false
 # - name: ""
 #   url: ""
 url_pdf: https://doi.org/10.1103/PhysRevB.106.235115
-url_code: 'https://github.com/wowchemy/wowchemy-hugo-themes'
 url_dataset: ''
 url_poster: ''
 url_project: ''
@@ -48,7 +47,8 @@ url_video: ''
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects: - topo
+projects: 
+- topo
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
