@@ -1,6 +1,6 @@
 ---
 title: Detecting the topological order on a torus
-summary: An example of using the in-built project page.
+summary: ""
 tags:
   - Topological order
 date: '2022-04-27T00:00:00Z'
@@ -9,7 +9,7 @@ date: '2022-04-27T00:00:00Z'
 external_link: ''
 
 image:
-  caption: Photo by rawpixel on Unsplash
+  caption: S and T transformation on a minimum entangled state
   focal_point: Smart
 
 #links:
