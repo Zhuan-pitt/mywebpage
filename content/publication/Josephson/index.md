@@ -1,7 +1,10 @@
 ---
-title: "An example preprint / working paper"
+title: "Evidence of φ0-Josephson junction from skewed diffraction patterns in Sn-InSb nanowires"
 authors:
+- Bomin Zhang
 - admin
+- Sergey Frolov
+- et al.
 date: "2019-04-07T00:00:00Z"
 doi: ""
 

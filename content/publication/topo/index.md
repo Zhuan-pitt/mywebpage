@@ -1,5 +1,5 @@
 ---
-title: "An example journal article"
+title: "Detecting topological order from modular transformations of ground states on the torus"
 authors:
 - admin
 - Roger Mong
