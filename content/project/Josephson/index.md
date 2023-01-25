@@ -1,6 +1,6 @@
 ---
 title: $\phi_0$-Josephson junction
-summary: An example of using the in-built project page.
+summary: ""
 tags:
   - Topological order
 date: '2022-04-27T00:00:00Z'

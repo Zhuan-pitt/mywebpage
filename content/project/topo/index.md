@@ -1,5 +1,5 @@
 ---
-title: Detecting the topological order on a torus
+title: Topological order on a torus
 summary: ""
 tags:
   - Topological order
