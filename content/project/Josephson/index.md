@@ -9,7 +9,7 @@ date: '2022-04-27T00:00:00Z'
 external_link: ''
 
 image:
-  caption: Photo by rawpixel on Unsplash
+  caption: A Cooper pair transit through a nanowire
   focal_point: Smart
 
 #links:
@@ -29,6 +29,4 @@ url_video: ''
 #   Otherwise, set `slides = ""`.
 slides: example
 ---
-
-'
-We study Josephson junctions based on InSb nanowires with Sn shells. We observe skewed critical current diffraction patterns: the maxima in forward and reverse current bias are at different magnetic flux, with a displacement of 20-40 mT. The skew is greatest when the external field is nearly perpendicular to the nanowire, in the substrate plane. This orientation suggests that spin-orbit interaction plays a role. We develop a phenomenological model and perform tight-binding calculations, both methods reproducing the essential features of the experiment. The effect modeled is the ϕ0-Josephson junction with higher-order Josephson harmonics. The system is of interest for Majorana studies: the effects are either precursor to or concomitant with topological superconductivity. Current-phase relations that lack inversion symmetry can also be used to design quantum circuits with engineered nonlinearity.'
+We study Josephson junctions based on InSb nanowires with Sn shells. We observe skewed critical current diffraction patterns: the maxima in forward and reverse current bias are at different magnetic flux, with a displacement of 20-40 mT. The skew is greatest when the external field is nearly perpendicular to the nanowire, in the substrate plane. This orientation suggests that spin-orbit interaction plays a role. We develop a phenomenological model and perform tight-binding calculations, both methods reproducing the essential features of the experiment. The effect modeled is the ϕ0-Josephson junction with higher-order Josephson harmonics. The system is of interest for Majorana studies: the effects are either precursor to or concomitant with topological superconductivity. Current-phase relations that lack inversion symmetry can also be used to design quantum circuits with engineered nonlinearity.
