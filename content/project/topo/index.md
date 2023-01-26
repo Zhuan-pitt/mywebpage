@@ -30,4 +30,14 @@ url_video: ''
 slides: ""
 ---
 
-The ground states encode the information of the topological phases of a 2-dimensional system, which makes them crucial in determining the associated topological quantum field theory (TQFT). Most numerical methods for detecting the TQFT relied on the use of minimum entanglement states (MESs), extracting the anyon mutual statistics and self statistics via overlaps and/or the entanglement spectra. The MESs are the eigenstates of the Wilson loop operators, and are labeled by the anyons corresponding to their eigenvalues. Here we revisit the definition of the Wilson loop operators and MESs. We derive the modular transformation of the ground states purely from the Wilson loop algebra, and as a result, the modular S and T matrices naturally show up in the overlap of MESs. Importantly, we show that due to the phase degree of freedom of the Wilson loop operators, the MES-anyon assignment is not unique. This ambiguity obstructs our attempt to detect the topological order, that is, there exist different TQFTs that cannot be distinguished solely by the overlap of MESs. In this paper, we provide the upper limit of the information one may obtain from the overlap of MESs without other additional structure. Finally, we show that if the phase is enriched by rotational symmetry, there may be additional TQFT information that can be extracted from overlap of MESs.
+After the discovery of the Fractional Quantum Hall eﬀect, more and more bizarre phases of matter that cannot be described by the Landau-Ginzburg symmetry-breaking paradigm were found. Instead of normal order parameters, these phases are characterized by robust ground state degeneracy, nontrivial particle statistics, and gapless edge excitations. These properties are robust to small Hamiltonian deformations, making them a potential candidate for fault-tolerant quantum computation.
+
+
+While multiple exact solvable microscopic Hamiltonians realize the nontrivial topological phase, the inverse problem—i.e., determining the topological phase from the microscopic Hamiltonian—is extremely challenging. Many existing methods are based on the belief that the ground state alone encodes all the information regarding the topological order. A well-known example is that: on a torus, the ground state degeneracy equals the kinds of point-wise excitation of the system.
+
+
+
+To extract more information from ground states, we can take other operations, such as the overlap of states. Xiaogang Wen first proposes obtaining the topological data from the overlap of ground-state wavefunctions. However, his argument relies on a continuous deformation in the moduli space (i.e., torus geometry) and is rather impractical to implement in a lattice system. 
+
+
+We addressed this issue by explicitly constructing operators associated with the physical process and carefully keeping track of the unnecessary phases related to physical/lattice systems. By consistently arranging the phases along every simple loop on the torus, we successfully justified Wen's results in a lattice system.
