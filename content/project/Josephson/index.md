@@ -9,7 +9,7 @@ date: '2022-04-27T00:00:00Z'
 external_link: ''
 
 image:
-  caption: A Cooper pair transit through a nanowire
+  caption: A Cooper pair transits through a nanowire
   focal_point: Smart
 
 #links:
