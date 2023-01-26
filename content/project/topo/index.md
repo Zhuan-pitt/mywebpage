@@ -9,7 +9,7 @@ date: '2022-04-27T00:00:00Z'
 external_link: ''
 
 image:
-  caption: S and T transformation on a minimum entangled state
+  caption: Calculating the overlap between two states
   focal_point: Smart
 
 #links:
