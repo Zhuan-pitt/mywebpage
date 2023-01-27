@@ -1,8 +1,8 @@
 ---
-title: $\phi_0$-Josephson junction
+title: ϕ0-Josephson junction
 summary: ""
 tags:
-  - Topological order
+  - Quantum transport
 date: '2022-04-27T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
@@ -29,4 +29,8 @@ url_video: ''
 #   Otherwise, set `slides = ""`.
 slides: example
 ---
-We study Josephson junctions based on InSb nanowires with Sn shells. We observe skewed critical current diffraction patterns: the maxima in forward and reverse current bias are at different magnetic flux, with a displacement of 20-40 mT. The skew is greatest when the external field is nearly perpendicular to the nanowire, in the substrate plane. This orientation suggests that spin-orbit interaction plays a role. We develop a phenomenological model and perform tight-binding calculations, both methods reproducing the essential features of the experiment. The effect modeled is the ϕ0-Josephson junction with higher-order Josephson harmonics. The system is of interest for Majorana studies: the effects are either precursor to or concomitant with topological superconductivity. Current-phase relations that lack inversion symmetry can also be used to design quantum circuits with engineered nonlinearity.
+A Josephson junction is a superconducting electronic device consisting of two superconducting electrodes separated by a thin insulating barrier. Current can flow through this junction without any resistance and is called the supercurrent. Supercurrent is caused by Cooper pair tunneling, where pairs of electrons (Cooper pairs) can tunnel through the insulating barrier and flow between the two superconducting electrodes. 
+
+The current-phase relation (CPR) in a Josephson junction describes the relationship between the supercurrent flowing through the junction and the phase difference between the superconducting wave functions on the two sides of the junction. The CPR for a normal Josephson junction is given by: I(ϕ) = I_c * sin(ϕ), where I(ϕ) is the supercurrent flowing through the junction, I_c is the critical current of the junction and ϕ is the phase difference between the superconducting wave functions on the two sides of the junction. 
+
+We observe skewed critical current patterns with an external magnetic field, i.e., I(-ϕ) ≠ -I(ϕ). We believe this skew comes from the spin-orbit interaction and the breaking of space inversion symmetry. The ϕ0-Josephson junction with higher-order Josephson harmonics can describe the current-phase relation for these junctions. To better understand the junction, we develop a phenomenological model and perform tight-binding calculations, reproducing the experiment's essential features. 

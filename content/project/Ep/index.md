@@ -1,6 +1,6 @@
 ---
-title: Estimating the entanglment of purification
-summary: An example of using the in-built project page.
+title: Tensor network and the entanglment of purification
+summary: ''
 tags:
   - Quantum information
   - Random matrix
@@ -10,7 +10,7 @@ date: '2022-04-27T00:00:00Z'
 external_link: ''
 
 image:
-  caption: Photo by rawpixel on Unsplash
+  caption: 1d tensor network (MPS)
   focal_point: Smart
 
 #links:
@@ -31,12 +31,14 @@ url_video: ''
 slides: example
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+In quantum mechanics, the state of a system is represented by a wave function, which can be thought of as a complex-valued tensor. This tensor usually has a large number of indices, making it difficult to manipulate and compute. To overcome this problem, we can use tensor network representation, which provides a way to represent and manipulate large-scale quantum states efficiently.
 
-Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.
+For example, in a matrix product state (1d tensor network) representation, a quantum many-body state is represented as a chain of tensors, with one tensor for each site in the system. Each tensor has a physical index corresponding to the site's state and two auxiliary indices that connect the tensors together. The physical index of the tensors is contracted together to give the overall wave function of the system, and the auxiliary indices are used to represent the entanglement between the different sites.
 
-Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.
+In the MPS representation, the entanglement entropy between two parts of a pure system is related to the size of the auxiliary indices of the tensors in the MPS. The more entanglement there is between two parts of a system, the larger the auxiliary indices of the tensors in the MPS will be.
 
-Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.
+For the tensor network representation of a mixed state, the entanglement of purification (EP) plays the role of entanglement entropy. It indicates the size of the auxiliary indices of the tensors in the network we need to represent a mixed state accurately. But different from entanglement entropy, the exact value of EP is much harder to calculate. Therefore, we estimate it's upper and lower bounds instead.
 
-Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.
+Without knowing any detail of a quantum system, we can first investigate its typical properties by averaging over a random matrix ensemble. This method has been shown to be successful in reproducing many of the properties of many-body quantum systems, such as the level spacing and the distribution of eigenvalues. And by carefully choosing the proper ensemble, we can estimate the bounds of EP efficiently.
+
+
