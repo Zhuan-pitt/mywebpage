@@ -74,4 +74,4 @@ Zhuan is a fourth-year Ph.D. student at the University of Pittsburgh under the s
 
 Before joining UPitt, Zhuan studied physics at the University of Chinese Academy of Sciences, China (BSc). During his undergraduate study, he worked on low-rank approximation algorithms based on the tensor network under the supervisor of Prof. Pan Zhang, Institute of Theoretical Physics, Chinese Academy of Sciences.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/CV2023.1.29.pdf" "newtab" >}}CV{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/CV2023.3.6.pdf" "newtab" >}}CV{{< /staticref >}}.
