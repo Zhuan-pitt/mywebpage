@@ -30,6 +30,8 @@ I have given contributed talks on the following conferences:
 - 2022 **APS March Meeting (Chicago)**
   - <font size=3> Contributed talk. *Title: Detecting topological order from modular transformations of ground states on the torus.* </font>
 
+- 2023 **APS March Meeting (Las Vegas)**
+  - <font size=3> Contributed talk. *Title: Estimating the reflected entropy from random matrices.* </font>
 
 ## Scholarships and Grants
 - 2022 Thomas-Lain essay competition. 
