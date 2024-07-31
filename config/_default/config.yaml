@@ -7,6 +7,29 @@ title:  Zhuan Li # Website name
 baseURL:  'https://zhuanli.netlify.app' # Website URL
 
 ############################
+## PAGE OPTIONS
+############################
+
+cascade:
+  # Blog post options
+  - _target:
+      path: /blog/**
+      kind: page
+    pager: true
+    editable: true
+    hide_date: true
+    show_date_updated: false
+    reading_time: false
+    commentable: true
+    show_related: true
+    share: true
+    # Just use Breadcrumb for navigation on blog post pages?
+    show_breadcrumb: false
+    header:
+      navbar:
+        enable: true
+
+############################
 ## LANGUAGE
 ############################
 
@@ -23,6 +46,8 @@ module:
   imports:
     - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms/v5
     - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy/v5
+    - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify
+    - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind
 
 ############################
 ## ADVANCED
