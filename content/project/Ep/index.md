@@ -5,7 +5,7 @@ tags:
   - Quantum information
   - Random matrix
 #date: '2022-04-27T00:00:00Z'
-data_show: false
+show_date: false
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
