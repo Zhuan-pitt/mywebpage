@@ -42,4 +42,5 @@ For the tensor network representation of a mixed state, the entanglement of puri
 
 Without knowing any detail of a quantum system, we can first investigate its typical properties by averaging over a random matrix ensemble. This method has been shown to be successful in reproducing many of the properties of many-body quantum systems, such as the level spacing and the distribution of eigenvalues. And by carefully choosing the proper ensemble, we can estimate the bounds of EP efficiently.
 
+![Example Image](featured2.png)
 
