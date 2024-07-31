@@ -1,6 +1,8 @@
 ---
 title: Tensor network and the entanglment of purification
-summary: ''
+summary: '
+In quantum mechanics, tensor network representations like the matrix product state (MPS) simplify the handling of complex wave functions by breaking them down into a series of linked tensors, each representing a system site. These tensors use auxiliary indices to represent entanglement, with more entangled systems requiring larger indices. For mixed states, the entanglement of purification (EP) indicates the necessary size of auxiliary indices for accurate representation, but is challenging to calculate precisely, so estimates of its bounds are used instead.'
+
 tags:
   - Quantum information
   - Random matrix
@@ -42,7 +44,7 @@ For the tensor network representation of a mixed state, the entanglement of puri
 
 Without knowing any detail of a quantum system, we can first investigate its typical properties by averaging over a random matrix ensemble. This method has been shown to be successful in reproducing many of the properties of many-body quantum systems, such as the level spacing and the distribution of eigenvalues. And by carefully choosing the proper ensemble, we can estimate the bounds of EP efficiently.
 
-test abcd
+
 
 ![Example Image](featured2.png)
 
