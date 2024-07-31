@@ -47,7 +47,7 @@ module:
     - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms/v5
     - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy/v5
     #- path: github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify
-    - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind
+    #- path: github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind
 
 ############################
 ## ADVANCED
