@@ -18,12 +18,11 @@ organizations:
 
 # Interests to show in About widget
 interests:
-  - Topological phase of matter
+  - Statistical learning
+  - Scientific Computing
   - Tensor network algorithm
-  - Quantum error correction
-  - Quantum information
-  - Josephson parametric amplifier
-  - Random matrix theory
+  - Machine Learning
+  - Quantum Computing
 
 # Education to show in About widget
 education:
@@ -70,8 +69,12 @@ email: 'zhl153@pitt.edu'
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-Zhuan is a fifth-year Ph.D. student at the University of Pittsburgh under the supervision of Prof. Roger Mong. He is broadly interested in condensed matter theory, especially the topological phase of matter and its potential application to quantum computing. His current Ph.D. project aims to detect the topological order in a mixed state and apply the result to quantum error correcting codes.
+Zhuan is a Ph.D. candidate in Physics at the University of Pittsburgh, mentored by Prof. Roger Mong. He specializes in scientific computing, data analysis, and machine learning, applying advanced statistical methods and computational techniques to complex theoretical and practical challenges.
+
+Currently as a summer graduate intern at Los Alamos National Lab under the supervision of Dr. Andrey Lokhov, Zhuan focuses on enhancing modeling systems and optimizing large-scale sampling operations. At the University of Pittsburgh, he focuses on condensed matter theory, especially the topological phase of matter and its potential application to quantum computing. Utilizing various computational libraries, Zhuan performs in-depth simulations and data analyses to tackle intricate problems across diverse fields, including quantum error correction, quantum information, and superconducting devices.
 
 Before joining UPitt, Zhuan studied physics at the University of Chinese Academy of Sciences, China (BSc). During his undergraduate study, he worked on low-rank approximation algorithms based on the tensor network under the supervisor of Prof. Pan Zhang, Institute of Theoretical Physics, Chinese Academy of Sciences.
+
+With a robust background in theoretical physics and applied statistics, Zhuan is well-prepared to contribute to data science and machine learning projects, aiming to drive technological and industrial advancements through innovative approaches.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/CV.pdf" "newtab" >}}CV{{< /staticref >}}.
