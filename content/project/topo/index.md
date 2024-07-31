@@ -1,13 +1,13 @@
 ---
 title: Topological order on a torus
-summary: ""
+summary: "The Fractional Quantum Hall effect revealed new phases of matter beyond traditional paradigms, characterized by ground state degeneracy, nontrivial particle statistics, and gapless edge excitations, making them promising for fault-tolerant quantum computation. Determining the topological phase from a microscopic Hamiltonian is challenging, as it often assumes the ground state contains all topological information. It is proposed that topological data can be extract from ground-state wavefunction overlaps, however, this method was impractical for lattice systems. This issue was addressed by constructing specific operators and managing phase factors, applying Wen's results to lattice systems."
 tags:
   - Topological order
 #date: '2022-04-27T00:00:00Z'
 show_date: false
 
 # Optional external URL for project (replaces project detail page).
-external_link: 'The Fractional Quantum Hall effect revealed new phases of matter beyond traditional paradigms, characterized by ground state degeneracy, nontrivial particle statistics, and gapless edge excitations, making them promising for fault-tolerant quantum computation. Determining the topological phase from a microscopic Hamiltonian is challenging, as it often assumes the ground state contains all topological information. It is proposed that topological data can be extract from ground-state wavefunction overlaps, however, this method was impractical for lattice systems. This issue was addressed by constructing specific operators and managing phase factors, applying Wen's results to lattice systems.'
+external_link: ''
 
 image:
   caption: Calculating the overlap between two states
