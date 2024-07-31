@@ -3,6 +3,7 @@ title: ϕ0-Josephson junction
 summary: ""
 tags:
   - Quantum transport
+showdate: false
 #date: '2022-04-27T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
