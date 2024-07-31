@@ -36,7 +36,7 @@ I have given contributed talks on the following conferences:
 - 2024 **APS March Meeting (Minneapolis)**
   - <font size=3> Contributed talk. *Title: Replica Topological Order and Error Correction.* </font>
 
-## Scholarships and Grants
+## Awards
 - 2022 Thomas-Lain essay competition. 
 - 2023 Pittsburgh Quantum Institute Fellowship.
 

@@ -13,7 +13,8 @@ weight: 60
 
 title: Projects
 subtitle: ''
-showdate: false
+show_date: false
+reading_time: true
 
 content:
   # Filter on criteria
@@ -39,5 +40,5 @@ design:
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view: 3
+  view: 4
 ---
