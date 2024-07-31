@@ -33,5 +33,11 @@ I have given contributed talks on the following conferences:
 - 2023 **APS March Meeting (Las Vegas)**
   - <font size=3> Contributed talk. *Title: Estimating the reflected entropy from random matrices.* </font>
 
+- 2024 **APS March Meeting (Minneapolis)**
+  - <font size=3> Contributed talk. *Title: Replica Topological Order and Error Correction.* </font>
+
 ## Scholarships and Grants
 - 2022 Thomas-Lain essay competition. 
+- 2023 Pittsburgh Quantum Institute Fellowship.
+
+

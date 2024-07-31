@@ -70,8 +70,8 @@ email: 'zhl153@pitt.edu'
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-Zhuan is a fourth-year Ph.D. student at the University of Pittsburgh under the supervision of Prof. Roger Mong. He is broadly interested in condensed matter theory, especially the topological phase of matter and its potential application to quantum computing. His current Ph.D. project aims to detect the topological order in a mixed state and apply the result to quantum error correcting codes.
+Zhuan is a fifth-year Ph.D. student at the University of Pittsburgh under the supervision of Prof. Roger Mong. He is broadly interested in condensed matter theory, especially the topological phase of matter and its potential application to quantum computing. His current Ph.D. project aims to detect the topological order in a mixed state and apply the result to quantum error correcting codes.
 
 Before joining UPitt, Zhuan studied physics at the University of Chinese Academy of Sciences, China (BSc). During his undergraduate study, he worked on low-rank approximation algorithms based on the tensor network under the supervisor of Prof. Pan Zhang, Institute of Theoretical Physics, Chinese Academy of Sciences.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/CV2023.3.6.pdf" "newtab" >}}CV{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/CV.pdf" "newtab" >}}CV{{< /staticref >}}.
