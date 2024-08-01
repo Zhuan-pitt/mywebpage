@@ -10,7 +10,7 @@ show_date: false
 external_link: ''
 
 image:
-  caption: Calculating the overlap between two states
+  caption: Calculating the overlap between two states. picture: Zhuan Li
   focal_point: Smart
 
 #links:

@@ -14,7 +14,7 @@ show_date: false
 external_link: ''
 
 image:
-  caption: Andromeda Galaxy (M31)
+  caption: Andromeda Galaxy (M31). photo: Zhuan Li
   focal_point: Smart
 
 #links:
