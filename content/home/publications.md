@@ -33,7 +33,7 @@ content:
 design:
   # Choose a view for the listings:
   view: citation
-  columns: '3'
+  columns: '1'
 ---
 
 
