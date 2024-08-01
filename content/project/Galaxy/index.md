@@ -35,17 +35,16 @@ url_video: ''
 slides: example
 ---
 
-In quantum mechanics, the state of a system is represented by a wave function, which can be thought of as a complex-valued tensor. This tensor usually has a large number of indices, making it difficult to manipulate and compute. To overcome this problem, we can use tensor network representation, which provides a way to represent and manipulate large-scale quantum states efficiently.
+## Introduction
+Galaxies, the vast and sprawling structures that dominate our universe, come in an array of intriguing shapes and sizes. Understanding these shapes not only deepens our knowledge of the cosmos but also provides insights into the evolution of galaxies. In this portfolio project, I leveraged advanced machine learning methods to classify galaxies based on their shapes, utilizing several powerful techniques to enhance both accuracy and efficiency.
 
-For example, in a matrix product state (1d tensor network) representation, a quantum many-body state is represented as a chain of tensors, with one tensor for each site in the system. Each tensor has a physical index corresponding to the site's state and two auxiliary indices that connect the tensors together. The physical index of the tensors is contracted together to give the overall wave function of the system, and the auxiliary indices are used to represent the entanglement between the different sites.
+## Utilizing Deep Learning with ResNet18
+To tackle the complex task of galaxy classification, I began by employing a pre-trained convolutional neural network (CNN), specifically ResNet18. CNNs are particularly adept at processing visual information and learning hierarchical patterns, making them ideal for image classification tasks like this one. ResNet18, known for its deep residual learning framework, helps in avoiding the problem of vanishing gradients—a common issue in training deep networks.
+In this project, I modified ResNet18 by removing its final layer. This alteration transforms the network into a feature extractor, where the input—images of galaxies—yields vectors containing salient features of each image rather than a class label. These feature vectors are critical for the subsequent clustering step.
 
-In the MPS representation, the entanglement entropy between two parts of a pure system is related to the size of the auxiliary indices of the tensors in the MPS. The more entanglement there is between two parts of a system, the larger the auxiliary indices of the tensors in the MPS will be.
+## Clustering with K-means and Spectral Methods
+With feature vectors in hand, I applied two clustering methods: K-means and Spectral clustering. K-means, a centroid-based clustering, partitions the vectors into clusters, with each belonging to the nearest mean. Meanwhile, Spectral clustering uses similarity between examples as a basis for clustering, which is particularly useful for grouping data that is not linearly separable.
 
-For the tensor network representation of a mixed state, the entanglement of purification (EP) plays the role of entanglement entropy. It indicates the size of the auxiliary indices of the tensors in the network we need to represent a mixed state accurately. But different from entanglement entropy, the exact value of EP is much harder to calculate. Therefore, we estimate it's upper and lower bounds instead.
-
-Without knowing any detail of a quantum system, we can first investigate its typical properties by averaging over a random matrix ensemble. This method has been shown to be successful in reproducing many of the properties of many-body quantum systems, such as the level spacing and the distribution of eigenvalues. And by carefully choosing the proper ensemble, we can estimate the bounds of EP efficiently.
-
-
-
-![Example Image](featured2.png)
+## Semi-Supervised Learning Enhancement
+To enhance the performance of the clustering, I introduced a semi-supervised learning component. By manually labeling a small subset of the galaxy images, I was able to retrain the ResNet18 network. This step helps the model learn more specific features relevant to galaxy shapes, thus improving the clustering accuracy in subsequent iterations.
 
