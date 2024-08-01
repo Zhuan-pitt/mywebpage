@@ -7,7 +7,7 @@ widget: projects
 headless: true
 
 # Order that this section appears on the page.
-weight: 40
+weight: 60
 
 title: Researches
 subtitle: ''
@@ -18,7 +18,7 @@ content:
   # Filter on criteria
   filters:
     folders:
-      - project
+      - research
     tag: ''
     category: ''
     publication_type: ''
