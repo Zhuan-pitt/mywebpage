@@ -11,7 +11,7 @@ weight: 40
 
 title: Activities
 design:
-  column: "1"
+  column: "2"
 
 ---
 ## Teaching
