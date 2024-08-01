@@ -77,6 +77,6 @@ Before joining UPitt, Zhuan studied physics at the University of Chinese Academy
 
 With a robust background in theoretical physics and applied statistics, Zhuan is well-prepared to contribute to data science and machine learning projects, aiming to drive technological and industrial advancements through innovative approaches.
 
-test abcd
+test ab
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/CV.pdf" "newtab" >}}CV{{< /staticref >}}.
