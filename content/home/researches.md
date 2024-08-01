@@ -1,22 +1,24 @@
 ---
-# An instance of the Pages widget.
+# An instance of the Featured widget.
 # Documentation: https://wowchemy.com/docs/page-builder/
-widget: pages
+widget: projects
 
 # This file represents a page section.
 headless: true
 
 # Order that this section appears on the page.
-weight: 80
+weight: 40
 
-title: Publications
+title: Researches
 subtitle: ''
+show_date: false
+reading_time: true
 
 content:
   # Filter on criteria
   filters:
     folders:
-      - publication
+      - project
     tag: ''
     category: ''
     publication_type: ''
@@ -32,8 +34,9 @@ content:
   order: desc
 design:
   # Choose a view for the listings:
-  view: citation
-  columns: '2'
+  #   1 = List
+  #   2 = Compact
+  #   3 = Card
+  #   4 = Citation (publication only)
+  view: 2
 ---
-
-
