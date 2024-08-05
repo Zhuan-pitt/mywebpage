@@ -1,8 +1,6 @@
 ---
 title: Galaxy Classification Using Machine Learning
-summary: '
-This project aims to classify galaxies based on their morphologies using advanced machine learning techniques.
-'
+summary: 'This project aims to classify galaxies based on their morphologies using advanced machine learning techniques. In this project, ResNet50 is adapted for feature extraction, and K-means and spectral clustering were utilized to categorize galaxy images into four types: Cigar-shaped, Spiral, and two groups of Elliptical galaxies, one of which exhibited more noise. The analysis demonstrated the effectiveness of these techniques in distinguishing subtle differences in galaxy structures. '
 
 tags:
   - Unsupervised Learning
