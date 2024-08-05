@@ -39,8 +39,7 @@ experience:
     location: Pittsburgh, PA, USA
     date_start: '2019-09-01'
     date_end: ''
-    description: |2-
-        PhD in Physics. Study topological order and tensor network under the supervision of Prof. Roger Mong.
+    description: PhD in Physics. Study topological order and tensor network under the supervision of Prof. Roger Mong.
 
 
   - title: Visiting student
