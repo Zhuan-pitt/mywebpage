@@ -9,7 +9,7 @@ show_date: false
 external_link: ''
 
 image:
-  caption: A Cooper pair transits through a nanowire. picture: Bomin Zhang
+  caption: A Cooper pair transits through a nanowire. picture Bomin Zhang
   focal_point: Smart
 
 #links:

@@ -13,7 +13,7 @@ show_date: false
 external_link: ''
 
 image:
-  caption: 1d tensor network (MPS). picture: Zhuan Li
+  caption: 1d tensor network (MPS). picture Zhuan Li
   focal_point: Smart
 
 #links:
