@@ -39,7 +39,7 @@ slides: example
 Galaxies, those vast and sprawling structures, dominate the universe and capture the curiosity of human beings. Understanding their shapes not only deepens our knowledge of the cosmos but also provides insights into their evolutions. In this portfolio project, I employed advanced machine learning techniques to classify galaxies based on their morphological features. Utilizing images from the Sloan Digital Sky Survey, this analysis was conducted on a dataset comprising twenty thousand galaxy images, each with a resolution of $69\times69$ pixels. The dataset can be accessed [here](https://www.astro.utoronto.ca/~bovy/Galaxy10/Galaxy10.h5). 
 
 ![Example Image](./galaxy.png)
-*<small>These 48 snapshots from the Sloan Digital Sky Survey show a diverse range of galaxy shapes, from spiraling whirls to elliptical enigmas.</small>*
+These 48 snapshots from the Sloan Digital Sky Survey show a diverse range of galaxy shapes, from spiraling whirls to elliptical enigmas.
 
 
 ## Feature Extraction with ResNet50
@@ -53,7 +53,7 @@ The next step is to reduce the dimensionality of these feature vectors to make t
 
 
 
-## Clustering with K-means and Spectral Clustering method
+## Clustering with K-means and Spectral Clustering methods
 With reduced feature vectors in hand, I applied two clustering methods: K-means and Spectral clustering. 
 
 K-means clustering, a widely used and straightforward method, partitions a dataset into K distinct, non-overlapping clusters. It's a method that the audience is likely familiar with, as it's a popular choice in data analysis. It groups data points into clusters such that the total variance within each cluster is minimized. The K-means method starts by selecting $K$ initial cluster centroids, and assign each data point to the nearest centroids. Then, the locations of centroids are recalculated as the mean of all data points assigned to each cluster. The final cluster result is obtained by repeating the aforementioned steps.
