@@ -22,6 +22,16 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+  - title: Summer student
+    company: Los Alamos National Lab
+    company_url: ''
+    company_logo: ''
+    location: Los Alamos, NM, USA
+    date_start: '2024-05-13'
+    date_end: ''
+    description: |2-
+        Explore new methods for a high-fidelity sampling using quantum annealers under the supervision of Dr. Andrew Lokhov.
+        
   - title: PhD student
     company: University of Pittsburgh
     company_url: ''
