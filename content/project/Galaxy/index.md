@@ -1,5 +1,5 @@
 ---
-title: Machine Learning Techniques in Galaxy Classification
+title: Galaxy Classification Using Machine Learning
 summary: '
 This project aims to classify galaxies based on their morphologies using advanced machine learning techniques.
 '
@@ -36,10 +36,6 @@ slides: example
 ---
 
 ## Introduction
-Galaxies, those vast and sprawling structures, dominate the universe and capture the curiosity of human beings. Understanding their shapes not only deepens our knowledge of the cosmos but also provides insights into their evolutions. In this portfolio project, I employed advanced machine learning techniques to classify galaxies based on their morphological features. Utilizing images from the Sloan Digital Sky Survey, this analysis was conducted on a dataset comprising twenty thousand galaxy images, each with a resolution of $69\times69$ pixels. The dataset can be accessed [here](https://www.astro.utoronto.ca/~bovy/Galaxy10/Galaxy10.h5). 
-
-![Example Image](./galaxy.png)
-These 48 snapshots from the Sloan Digital Sky Survey show a diverse range of galaxy shapes, from spiraling whirls to elliptical enigmas.
 
 
 ## Feature Extraction with ResNet50
