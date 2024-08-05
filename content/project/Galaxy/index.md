@@ -48,7 +48,7 @@ To tackle the complex task of galaxy classification, I began by employing a pre-
 For this project, I utilized ResNet50, a variant comprising 50 layers, including convolutional, pooling, and fully connected layers. Originally, ResNet50 is trained to classify images into one of 1000 predefined categories, which notably do not include galaxies. Nevertheless, its architecture is versatile enough to be repurposed for galaxy image classification. By removing the final classification layer of ResNet50, I transformed the network from a general classifier into a dedicated feature extractor. This modification alters the network's output from a $1000$-dimensional label vector to a $1024$-dimesional feature vector tailored to capture the unique aspects of galaxy images.
 
 The next step is to reduce the dimensionality of these feature vectors to make the clustering computationally feasible and more effective. Using Principal Component Analysis (PCA), I reduced the feature space while preserving approximately $90%$ of the original variance, resulting in a $58$-dimensional vector. Although the t-SNE visualization method provided initial insights into the distribution of these features, its tendency to misrepresent clustering necessitated the exploration of more robust clustering algorithms to accurately classify the various galaxy types.
-
+![example image](./tsne.png)
 
 
 
